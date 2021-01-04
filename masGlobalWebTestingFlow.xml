@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="MAS Global Web Testing Assignment" verbose="2">
+
+<!--  Tests -->
+	<test name="Verify the user will see “The Name of the Wind - Patrick Rothfuss” as first result link on search results page">
+		<classes>
+			<class name="com.masGlobal.masGlobalWebTesting.tests.VerifyFirstResultLinkTest"/>
+		</classes>
+	</test>
+	<test name="Verify suggestion list is displayed">
+		<classes>
+			<class name="com.masGlobal.masGlobalWebTesting.tests.VerifySuggestionListTest"/>
+		</classes>
+	</test>
+	<test name="Verify the user can get Patrick Rothfuss page">
+		<classes>
+			<class name="com.masGlobal.masGlobalWebTesting.tests.VerifyPatrickRothfussPageTest"/>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
